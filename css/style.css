@@ -1,0 +1,63 @@
+/* Center picture */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px #888888;
+    background-image: url("../img/scroll.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2:hover {
+    background-color: yellow;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 3px 3px 3px #888888;
+    position: relative;
+    top: 0px;
+    right: 110px;
+}
+
+/* shadows for letters */
+.shadow {
+    text-shadow: 3px 3px 3px #888888;
+    text-align: center;
+}
+
+/* kinda center project info */
+.information {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'Iceland', cursive;
+    font-size: 18px;
+    line-height: 1;
+}
+
+i {
+    font-size: 14px;
+    text-shadow: 2px 2px #ffffff;
+    color: #555555;
+}
+
+/* kinda center project info */
+.projects {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    font-family: 'Iceland', cursive;
+}
+
+/* line spacing */
+.spacing{
+  line-height: 10px; 
+}
